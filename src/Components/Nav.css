@@ -1,0 +1,23 @@
+.nav-master {
+    /* background-image: linear-gradient(to right, #FF70A6, #FF9770, #FFD670, #E9FF70); */
+    background-image: linear-gradient(to right, #122B3D, rgb(30, 75, 100));
+    box-shadow: 5px 1px 5px 5px rgb(75, 75, 75, 0.75);
+    height: 100vh;
+}
+
+#nav-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-icons {
+    width: 33%;
+}
+
+.nav-icons:hover {
+    cursor: pointer;
+}
